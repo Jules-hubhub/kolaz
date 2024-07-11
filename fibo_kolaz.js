@@ -86,11 +86,11 @@ function draw() {
   fibonS = int(random(18, 40));
 
 
-  selectNu = (int(random(0, 16)));
-  selectNu2 = (int(random(0, 16)));
+  selectNu = (int(random(0, 20)));
+  selectNu2 = (int(random(0, 20)));
 
   if (key == 'q') {
-    selectNu = (int(random(0, 16)));
+    selectNu = (int(random(0, 20)));
   }
   if (key == 'w') {
     selectNu = 16;
