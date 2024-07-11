@@ -33,13 +33,17 @@ function preload() {
   sourceMaterial[14] = loadImage('data/ovajaja.png');
   sourceMaterial[15] = loadImage('data/ramen.png');
   sourceMaterial[16] = loadImage('data/ribicy.png');
+  sourceMaterial[17] = loadImage('data/zabac.png');
+  sourceMaterial[18] = loadImage('data/film.png');
+  sourceMaterial[19] = loadImage('data/ultra.png');
+  sourceMaterial[20] = loadImage('data/buba.png');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0,94,235); 
   
-  image(sourceMaterial[16], 0, (windowHeight/2), windowWidth, (windowHeight/2));
+  image(sourceMaterial[20], 0, (windowHeight/2), windowWidth, (windowHeight/2));
   
   //fibonacci 
    angleMode(DEGREES);
